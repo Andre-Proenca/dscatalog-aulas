@@ -22,10 +22,11 @@ import com.softcraft.dscatalog.services.exceptions.ResourceNotFoundException;
 import jakarta.persistence.EntityNotFoundException;
 
 @Service
-public class ProductService {
-
+public class ProductService {	
+	
 	@Autowired
 	private ProductRepository repository;
+	
 	@Autowired
 	private CategoryRepository categoryRepository;
 	
